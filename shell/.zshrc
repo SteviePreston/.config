@@ -2,7 +2,6 @@
 export VISUAL=nvim
 export EDITOR=nvim
 export SUDO_EDITOR=nvim
-export CLAUDE_CONFIG_HOME="$HOME/.config/claude"
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 export GIT_CONFIG_GLOBAL="$HOME/.config/git/.gitconfig"
 export XDG_CONFIG_HOME="$HOME/.config"
