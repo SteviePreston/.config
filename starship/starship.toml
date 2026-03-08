@@ -1,0 +1,62 @@
+# starship.toml
+add_newline = false
+
+[cmd_duration]
+disabled = true
+
+[directory]
+read_only = " 󰌾"
+truncate_to_repo = true
+truncation_length = 4
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)](bold bright-purple) "
+symbol = " "
+
+[git_commit]
+tag_symbol = " "
+
+[package]
+format = "[$symbol$version](bold red) "
+symbol = "󰏗 "
+
+[aws]
+format = "[$symbol$version](bold yellow) "
+symbol = "  "
+
+[docker_context]
+format = "[$symbol$version](bold blue) "
+symbol = " "
+
+[c]
+format = "[$symbol$version](bold blue) "
+symbol = "󰙱 "
+
+[golang]
+format = "[$symbol$version](bold blue) "
+symbol = " "
+
+[lua]
+format = "[$symbol$version](bold blue) "
+symbol = " "
+
+[nodejs]
+format = "[$symbol$version](bold green) "
+symbol = " "
+
+[python]
+format = "[$symbol$version](bold yellow) "
+symbol = " "
+
+[ruby]
+format = "[$symbol$version](bold red) "
+symbol = " "
+
+[rust]
+format = "[$symbol$version](bold red) "
+symbol = "󱘗 "
+
+[terraform]
+format = "[$symbol$version](bold purple) "
+symbol = " "
+
