@@ -1,0 +1,16 @@
+# Alacritty config
+[general]
+import = ["~/.config/alacritty/gruvbox.toml"]
+
+[window]
+decorations = "None"
+padding.x = 0
+padding.y = 0
+opacity = 1.0
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font" }
+size = 32.0
+
+[cursor]
+style = { shape = "Block", blinking = "Never" }
