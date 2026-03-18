@@ -94,7 +94,10 @@ down = "volume down"
 up = "volume up"
 shift-down = ["volume set 0", "mode main"]
 
-# To get the app-id, run `mdls -name kMDItemCFBundleIdentifier -r /Applications/Spotify.app`
+# To get the app-id, 
+# run `mdls -name kMDItemCFBundleIdentifier -r /System/Applications/Preview.app`
+# run `mdls -name kMDItemCFBundleIdentifier -r /Applications/Spotify.app`
+
 [[on-window-detected]]
     if.app-id = 'org.alacritty'
     run = 'move-node-to-workspace 1' 
