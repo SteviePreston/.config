@@ -96,7 +96,7 @@ shift-down = ["volume set 0", "mode main"]
 
 # To get the app-id, run `mdls -name kMDItemCFBundleIdentifier -r /Applications/Spotify.app`
 [[on-window-detected]]
-    if.app-id = 'com.mitchellh.ghostty'
+    if.app-id = 'org.alacritty'
     run = 'move-node-to-workspace 1' 
 
 [[on-window-detected]]
@@ -125,11 +125,14 @@ shift-down = ["volume set 0", "mode main"]
     run = 'move-node-to-workspace 5' 
 
 [[on-window-detected]]
-    if.app-id = 'com.docker.docker'
+    if.app-id = 'com.apple.Preview'
     run = 'move-node-to-workspace 6' 
 
 [[on-window-detected]]
     if.app-id = 'com.spotify.client'
+    run = 'move-node-to-workspace 7' 
+[[on-window-detected]]
+    if.app-id = 'com.apple.Music'
     run = 'move-node-to-workspace 7' 
 
 [[on-window-detected]]
@@ -138,6 +141,10 @@ shift-down = ["volume set 0", "mode main"]
 [[on-window-detected]]
     if.app-id = 'com.apple.MobileSMS'
     run = 'move-node-to-workspace 8' 
+
+[[on-window-detected]]
+    if.app-id = 'com.docker.docker'
+    run = 'move-node-to-workspace 9' 
 
 [[on-window-detected]]
     if.app-id = 'com.apple.systempreferences'

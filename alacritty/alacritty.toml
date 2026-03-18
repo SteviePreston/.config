@@ -12,5 +12,8 @@ opacity = 1.0
 normal = { family = "JetBrainsMono Nerd Font" }
 size = 32.0
 
+[mouse]
+hide_when_typing = false
+
 [cursor]
 style = { shape = "Block", blinking = "Never" }
